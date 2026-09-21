@@ -1798,7 +1798,7 @@ requires-dist = [
     { name = "pennylane", marker = "extra == 'pennylane'", specifier = ">=0.44.1,<0.46.0" },
     { name = "pennylane-qiskit", marker = "extra == 'pennylane'", specifier = "~=0.43.0" },
     { name = "ply", marker = "extra == 'qiskit'", specifier = "==3.11" },
-    { name = "pyquil", marker = "extra == 'pyquil'", specifier = ">=4.17,<4.19" },
+    { name = "pyquil", marker = "extra == 'pyquil'", specifier = ">=4.17,<4.20" },
     { name = "qbraid", marker = "extra == 'pyquil'", specifier = ">=0.10,<0.13" },
     { name = "qermit", marker = "extra == 'benchmarking'" },
     { name = "qibo", marker = "extra == 'qibo'", specifier = ">=0.2.16,<0.4.0" },
@@ -2754,7 +2754,7 @@ wheels = [
 
 [[package]]
 name = "pyquil"
-version = "4.18.0"
+version = "4.19.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "deprecated" },
@@ -2768,9 +2768,9 @@ dependencies = [
     { name = "scipy" },
     { name = "types-deprecated" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d1/42/36d1fdee56f2ec90b28f6f2297116691d7f283536421b8f8db65e704fc83/pyquil-4.18.0.tar.gz", hash = "sha256:a8e55379e7f898e7496ec285423866968ae7e0881ae18990351ee6453398fff6", size = 203553, upload-time = "2026-08-19T23:23:12.885Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/01/9b/b7b966e1b64d989536d5db3d657c6d691d7058dc27281bcb1e29bd337825/pyquil-4.19.0.tar.gz", hash = "sha256:fed20b7777e1900999c370d214b8f399faa978fab4d46fde644eed814bb40db2", size = 235972, upload-time = "2026-09-18T02:53:11.745Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/56/ed/f83fe4f2a880a485721d7f35da4d41a5dde10309ff6904875e30adcf7daf/pyquil-4.18.0-py3-none-any.whl", hash = "sha256:124fc0bd9d980f4a2bf992c0de7bd212e8c404fef03423fb78aaa60a48f65c74", size = 241151, upload-time = "2026-08-19T23:23:14.032Z" },
+    { url = "https://files.pythonhosted.org/packages/39/b1/dc5b9d29afea05e12bc02e5e74e0c891dce113c1df6babf68a940d38aac0/pyquil-4.19.0-py3-none-any.whl", hash = "sha256:7a8d6dafc747fd83510cdf85cdbeb713ef74f0c8be32fd070710a2b7809a4661", size = 276299, upload-time = "2026-09-18T02:53:09.953Z" },
 ]
 
 [[package]]
