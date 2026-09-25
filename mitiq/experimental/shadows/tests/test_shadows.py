@@ -72,8 +72,7 @@ def test_pauli_twirling_calibrate_missing_args():
     with pytest.raises(
         TypeError,
         match=(
-            "qubits must be specified when "
-            "zero_state_shadow_outcomes is None."
+            "qubits must be specified when zero_state_shadow_outcomes is None."
         ),
     ):
         pauli_twirling_calibrate(qubits=None, zero_state_shadow_outcomes=None)
